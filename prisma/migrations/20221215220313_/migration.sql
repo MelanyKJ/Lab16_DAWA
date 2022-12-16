@@ -2,7 +2,7 @@
 CREATE TABLE `users` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
     `name` VARCHAR(191) NULL,
-    `img` VARCHAR(191) NOT NULL,
+    `img` VARCHAR(4000) NOT NULL,
     `email` VARCHAR(191) NOT NULL,
     `password` VARCHAR(191) NOT NULL,
     `phone_number` VARCHAR(191) NULL,
